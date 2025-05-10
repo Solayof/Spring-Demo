@@ -1,7 +1,7 @@
 package com.example.demo.entity;
 
-import com.fasterxml.jackson.annotation.Jsonformat;
-import jakarta.persistent.*;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -25,7 +25,7 @@ public class UserEntity {
     private String email;
     private String phone;
     private String nationality;
-    @Jsonformat(pattern="dd/MM/yyyy")
+    @JsonFormat(pattern="dd/MM/yyyy")
     private LocalDate dob;
     private String gender;
     private String password;
