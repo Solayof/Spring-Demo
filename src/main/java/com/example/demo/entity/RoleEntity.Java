@@ -1,5 +1,5 @@
 package com.example.demo.entity;
-import jakartA.persistent.*;
+import jakarta.persistent.*;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;

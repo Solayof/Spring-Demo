@@ -1,7 +1,7 @@
 package com.example.demo.entity;
 
 import com.fasterxml.jackson.annotation.Jsonformat;
-import jakartA.persistent.*;
+import jakarta.persistent.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
